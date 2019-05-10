@@ -1,0 +1,1 @@
+cat /etc/passwd | sed '/^#/d' | sed -n 'n;p' | cut -d : -f1 | rev | nl | sort -r | cut -f2 | head -n $FT_LINE2 | tail -n +$FT_LINE1 | cat -e | tr '$' ',' | tr -d "\n" | sed 's/,/, /g' | sed 's/\(.*\),/\1./'

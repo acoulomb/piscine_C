@@ -1,0 +1,6 @@
+Credentials cache: API:E717EE81-0E53-48AF-BA27-FA401DD91A1B
+        Principal: acoulomb@42.FR
+
+  Issued                Expires               Principal
+Feb  5 14:29:47 2018  Feb 12 14:29:47 2018  krbtgt/42.FR@42.FR
+Feb  5 15:34:54 2018  Feb 12 14:29:47 2018  host/vgs-fn1.42.fr@42.FR
